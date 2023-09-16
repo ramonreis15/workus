@@ -1,0 +1,48 @@
+@media screen and (max-width: 800px) {
+    .hero div {
+        width: 100%;
+    }
+
+    .hero div h2 {
+        font-size: 40px;
+        padding: 30px;
+        text-align: center;
+    }
+
+    span {
+        font-size: 40px;
+    }
+
+    .hero div a {
+        padding: 15px 70px;
+    }  
+
+    #work .work-grid img {
+        width: 80%;
+    }
+
+    #work .work-grid div h2, #feedback h2, #about-me .about-grid div h2 {
+        font-size: 40px;
+        text-align: center;
+        padding: 0 10px
+    }
+
+    #work .work-grid div p, #about-me .about-grid div p {
+        font-size: 18px;
+        padding: 0 15px;
+    }
+
+    p {
+        font-size: 17px;
+        padding-top: 8px;
+    }
+
+    .service-item h4, footer p {
+        font-size: 20px;
+        font-weight: 500;
+    }
+
+    .service-item p {
+        font-size: 17px;
+    }
+}

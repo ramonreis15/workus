@@ -1,0 +1,134 @@
+#feedback {
+    position: relative;
+    margin: 4rem 0;
+    padding: 20px;
+}
+
+#feedback h2 {
+    color: #DA5F17;
+    font-weight: 700;
+    font-size: 39px;
+    margin-bottom: 15px;
+}
+
+p {
+    padding-top: 8px;
+}
+
+#feedback>.container {
+    margin-left: 150px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.emphasis {
+    width: 500px;
+}
+
+.comment {
+    display: flex;
+    justify-content: space-between;
+}
+
+.slider {
+    overflow: hidden;
+    position: relative;
+    max-width: 450px;
+    padding: 0 5px;
+}
+
+.testimony {
+    border: 2px solid #DA5F17;
+    box-shadow: 1px 2px 3px 4px rgba(0, 0, 0, 0.25);
+    display: flex;
+    align-items: center;
+    max-width: 500px;
+    padding: 15px;
+    gap: 30px;
+}
+
+.testimony div {
+    display: flex;
+    flex-direction: column;
+}
+
+.testimony img {
+    max-width: 117px;
+    max-height: 117px;
+}
+
+.testimony h4 {
+    color: #DA5F17;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.hidden {
+    display: none;
+}
+
+.btn {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    margin-top: 30px;
+}
+
+.option {
+    width: 1.4rem;
+    height: 1.4rem;
+    cursor: pointer;
+    margin-left: 25px;
+    border-radius: 20px;
+    background-color: #C4C4C4;
+    border: none;
+    transition: 0.5s ease;
+}
+
+.option.active {
+    background-color: #DA5F17;
+}
+
+/*mobile*/
+@media screen and (max-width: 950px) {
+    .emphasis {
+        width: 80%;
+    }
+
+    .comment {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .slider {
+        width: 100%;
+    }
+
+    .slides img {
+        width: 30%;
+    }
+}
+
+/*tablet*/
+@media screen and (max-width: 1199px) {
+    #feedback {
+        margin: 2rem 0;
+    }
+
+    .emphasis {
+        width: 60%;
+    }
+
+    .comment {
+        align-items: center;
+    }
+
+    .slider {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 30px;
+    }
+}

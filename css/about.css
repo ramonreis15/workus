@@ -1,0 +1,83 @@
+#about-me {
+    margin: 4rem 0;
+}
+
+#about-me .about-grid {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 0 2rem;
+}
+
+#about-me .about-grid img {
+    padding-top: 20px;
+    width: 258px;
+    height: 277px;
+}
+
+#about-me .about-grid div h2 {
+    color: #DA5F17;
+    text-align: center;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    margin-bottom: 1rem;
+}
+
+#about-me .about-grid div hr {
+    width: 12%;
+    height: 4px;
+    background-color: #DA5F17;
+    border: 1px solid #DA5F17;
+    border-radius: 10px;
+}
+
+#about-me .about-grid div p {
+    text-align: center;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 26px;
+    margin: 2rem 0;
+}
+
+#about-me .about-grid div div {
+    text-align: center;
+    margin: 2.5rem 0;
+}
+
+#about-me .about-grid div div a {
+    background: #DA5F17;
+    border-radius: 10px;
+    padding: 10px 10%;
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    outline: none;
+    opacity: 0.9;
+}
+
+#about-me .about-grid div div a:hover {
+    opacity: 1;
+    transition: 400ms;
+}
+
+/*mobile*/
+@media screen and (max-width: 950px) {
+    #about-me {
+        margin: 2rem 1rem;
+    }
+}
+
+/*tablet*/
+@media screen and (max-width: 1199px) {
+    #about-me {
+        margin: 2rem 0;
+    }
+
+    .about-grid img {
+        display: none;
+    }
+}

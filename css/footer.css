@@ -1,0 +1,16 @@
+footer hr {
+    height: 1px;
+    background-color: #DA5F17;
+}
+
+footer p {
+    text-align: center;
+    font-weight: bold;
+    font-size: 16px;
+    margin: 1.675rem 0;
+}
+
+*,
+html {
+    font-family: "Roboto", sans-serif;
+}
